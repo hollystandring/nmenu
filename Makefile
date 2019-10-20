@@ -6,3 +6,6 @@ test: test.c nmenu.o
 
 nmenu.o: nmenu.c
 	$(CC) $(CFLAGS) -o nmenu.o -c nmenu.c -lncurses
+
+clean:
+	rm -rf test nmenu.o
