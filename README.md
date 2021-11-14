@@ -1,6 +1,6 @@
 # nmenu - ncurses menu system
 A 'plug and play' menu system for ncurses with automatic sizing and centering. Do it all with one function!
-![screenshot](sshot.png)
+![screenshot](https://github.com/joestandring/nmenu/blob/master/sshot.png)
 ## Table of Contents
 - [Getting started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -31,10 +31,10 @@ Once you have compiled nmenu, you can test to see if it is working by running 't
 ./test
 ```
 You should then be shown 4 menus in succession which (hopefully) look like this:
-![test1](test1.png)
-![test2](test2.png)
-![test3](test3.png)
-![test4](test4.png)
+![test1](https://raw.githubusercontent.com/joestandring/nmenu/master/test1.png)
+![test2](https://raw.githubusercontent.com/joestandring/nmenu/master/test2.png)
+![test3](https://raw.githubusercontent.com/joestandring/nmenu/master/test3.png)
+![test4](https://raw.githubusercontent.com/joestandring/nmenu/master/test4.png)
 After the last number, the values of the selected options will be output to the terminal:
 ```
 ./test
@@ -74,13 +74,13 @@ char *choices[2] = {"Yes", "No"};
 
 menu("Confirm", "Are you sure you want to exit?", choices, 2, true, true);
 ```
-![example1](example1.png)
+![example1](https://raw.githubusercontent.com/joestandring/nmenu/master/example1.png)
 ```
 char *choices[5] = {"1 ", "2 ", "3 ", "4 ", "5 "};
 
 menu("Amount", "Select the number of pages you want to print:", choices, 5, false, true);
 ```
-![example2](example2.png)
+![example2](https://raw.githubusercontent.com/joestandring/nmenu/master/example2.png)
 ### Interacting with the menu
 To navigate choices, the up, left, right, and down arrow keys can be used. The currently highlighted choice will have a white background
 To select a choice, the enter and space keys can be used. This will return the value of the selected choice
