@@ -1,6 +1,6 @@
 # nmenu - ncurses menu system
 A 'plug and play' menu system for ncurses with automatic sizing and centering. Do it all with one function!
-![screenshot](https://github.com/joestandring/nmenu/blob/master/sshot.png)
+![screenshot](https://raw.githubusercontent.com/joestandring/nmenu/master/sshot.png)
 ## Table of Contents
 - [Getting started](#getting-started)
   - [Prerequisites](#prerequisites)
