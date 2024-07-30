@@ -1,6 +1,5 @@
 /*
     A 'plug and play' menu system for ncurses with automatic sizing and centering
-    Joe Standring <git@joestandring.com>
     GNU GPLv3
 */
 
